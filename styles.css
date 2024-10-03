@@ -1,0 +1,148 @@
+:root{
+
+--introHeading : maroon;
+--introSize: 28px;
+}
+body {
+font-family: Arial, Helvetica;
+
+}
+
+.header {
+position: fixed;
+padding-left : 20px;
+padding-right: 20px;
+padding-top: 5px;
+
+
+width: 100%;
+top: 0;
+left:0;
+
+background-color: silver;
+
+}
+
+.intro{
+
+padding : 20px;
+text-align: center;
+
+ margin-top: 80px;
+
+}
+
+
+.intro > h2{
+font-size: var(--introSize);
+color: var(--introHeading);
+}
+
+.footer {
+width: 100%;
+bottom: 0;
+
+font-size:smaller;
+position: fixed;
+text-align: center;
+
+}
+.flexbox-section{
+
+padding : 20px;
+}
+
+.flex-container{
+
+padding : 20px;
+ display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+}
+
+
+.flex-item{
+
+padding-left: 10px;
+padding-right: 5px;
+
+width: 30%;
+height:100px;
+background-color: lavender;
+}
+.grid-container{
+
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+
+grid-template-rows: repeat(3, 1fr);
+
+gap: 10px;
+}
+
+.grid-section{
+
+padding : 20px;
+
+}
+.grid-item{
+
+padding: 10px;
+margin-top: 40px;
+width: 90%;
+height:50px;
+text-align:center;
+vertical-align:middle;
+
+} 
+
+.grid-item:nth-child(1){
+
+background-color: gold;
+}
+
+.grid-item:nth-child(2){
+
+background-color: orange;
+}
+
+.grid-item:nth-child(3){
+
+background-color: tomato;
+}
+
+.grid-item:nth-child(4){
+
+background-color: plum;
+}
+
+.grid-item:nth-child(5){
+
+background-color: wheat;
+}
+
+.grid-item:nth-child(6){
+
+background-color: skyblue;
+}
+
+.positioning-section{
+
+padding :20px;
+}
+.relative-container{
+width: 100%;
+
+position: relative;
+}
+
+
+.absolute-box{
+
+position: absolute;
+top: 15px;
+left:0px;
+
+
+}
